@@ -559,8 +559,8 @@ ul li label{
         grid-template-columns: 1fr 2fr;
         gap: 10px;
     }
-    #main img {
-        max-height: 270px;
+    .longImg {
+        max-height: 270px !important;
     }
 
     #main figure {
