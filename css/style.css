@@ -455,7 +455,7 @@ ul li label{
         display: block;
     }
 
-    #prev, #next {
+    #prev, #next, #prev1, #next1, #prev2, #next2, #prev3, #next3, #prev4, #next4  {
         background-color: rgb(50, 50, 150);
         color: #fff;
         padding: 10px 35px;

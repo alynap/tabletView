@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
     let currentImageIndexR = 0;
     const roimg = document.querySelector('.roimg');
-    const prevButtonR = roimg.querySelector('#prev');
-    const nextButtonR = roimg.querySelector('#next');
+    const prevButtonR = roimg.querySelector('#prev1');
+    const nextButtonR = roimg.querySelector('#next1');
 
     function changeImageR(direction) {
     currentImageIndexR += direction;
@@ -87,8 +87,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
     let currentImageIndexH = 0;
     const honimg = document.querySelector('.honimg');
-    const prevButtonH = honimg.querySelector('#prev');
-    const nextButtonH = honimg.querySelector('#next');
+    const prevButtonH = honimg.querySelector('#prev2');
+    const nextButtonH = honimg.querySelector('#next2');
     
     function changeImageH(direction) {
         currentImageIndexH += direction;
@@ -128,8 +128,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
     let currentImageIndexS = 0;
     const soimg = document.querySelector('.soimg');
-    const prevButtonS = soimg.querySelector('#prev');
-    const nextButtonS = soimg.querySelector('#next');
+    const prevButtonS = soimg.querySelector('#prev3');
+    const nextButtonS = soimg.querySelector('#next3');
     
     function changeImageS(direction) {
         currentImageIndexS += direction;
@@ -168,8 +168,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
     let currentImageIndexF = 0;
     const finnimg = document.querySelector('.finnimg');
-    const prevButtonF = finnimg.querySelector('#prev');
-    const nextButtonF = finnimg.querySelector('#next');
+    const prevButtonF = finnimg.querySelector('#prev4');
+    const nextButtonF = finnimg.querySelector('#next4');
     
     function changeImageF(direction) {
         currentImageIndexF += direction;
